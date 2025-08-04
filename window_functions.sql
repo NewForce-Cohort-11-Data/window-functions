@@ -24,7 +24,7 @@ SELECT *,
 	ROUND(AVG(value) OVER(PARTITION BY county ORDER BY year, period ROWS BETWEEN 11 PRECEDING AND CURRENT ROW), 2) AS month_avg
 FROM unemployment;
 
-
+-- Example of chaning the SQL document and pushing up to Github.
 
 
 
